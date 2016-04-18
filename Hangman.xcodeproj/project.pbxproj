@@ -13,6 +13,17 @@
 		62E84E821CC017840095D85C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62E84E801CC017840095D85C /* Main.storyboard */; };
 		62E84E841CC017840095D85C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62E84E831CC017840095D85C /* Assets.xcassets */; };
 		62E84E871CC017840095D85C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62E84E851CC017840095D85C /* LaunchScreen.storyboard */; };
+		62E84E991CC0202D0095D85C /* Hangman01.png in Resources */ = {isa = PBXBuildFile; fileRef = 62E84E8F1CC0202D0095D85C /* Hangman01.png */; };
+		62E84E9A1CC0202D0095D85C /* Hangman02.png in Resources */ = {isa = PBXBuildFile; fileRef = 62E84E901CC0202D0095D85C /* Hangman02.png */; };
+		62E84E9B1CC0202D0095D85C /* Hangman03.png in Resources */ = {isa = PBXBuildFile; fileRef = 62E84E911CC0202D0095D85C /* Hangman03.png */; };
+		62E84E9C1CC0202D0095D85C /* Hangman04.png in Resources */ = {isa = PBXBuildFile; fileRef = 62E84E921CC0202D0095D85C /* Hangman04.png */; };
+		62E84E9D1CC0202D0095D85C /* Hangman05.png in Resources */ = {isa = PBXBuildFile; fileRef = 62E84E931CC0202D0095D85C /* Hangman05.png */; };
+		62E84E9E1CC0202D0095D85C /* Hangman06.png in Resources */ = {isa = PBXBuildFile; fileRef = 62E84E941CC0202D0095D85C /* Hangman06.png */; };
+		62E84E9F1CC0202D0095D85C /* Hangman07.png in Resources */ = {isa = PBXBuildFile; fileRef = 62E84E951CC0202D0095D85C /* Hangman07.png */; };
+		62E84EA01CC0202D0095D85C /* Hangman08.png in Resources */ = {isa = PBXBuildFile; fileRef = 62E84E961CC0202D0095D85C /* Hangman08.png */; };
+		62E84EA11CC0202D0095D85C /* Hangman09.png in Resources */ = {isa = PBXBuildFile; fileRef = 62E84E971CC0202D0095D85C /* Hangman09.png */; };
+		62E84EA21CC0202D0095D85C /* Hangman10.png in Resources */ = {isa = PBXBuildFile; fileRef = 62E84E981CC0202D0095D85C /* Hangman10.png */; };
+		62E84EA41CC020470095D85C /* WordSetApple.csv in Resources */ = {isa = PBXBuildFile; fileRef = 62E84EA31CC020470095D85C /* WordSetApple.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +37,17 @@
 		62E84E831CC017840095D85C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		62E84E861CC017840095D85C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		62E84E881CC017840095D85C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62E84E8F1CC0202D0095D85C /* Hangman01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hangman01.png; sourceTree = "<group>"; };
+		62E84E901CC0202D0095D85C /* Hangman02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hangman02.png; sourceTree = "<group>"; };
+		62E84E911CC0202D0095D85C /* Hangman03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hangman03.png; sourceTree = "<group>"; };
+		62E84E921CC0202D0095D85C /* Hangman04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hangman04.png; sourceTree = "<group>"; };
+		62E84E931CC0202D0095D85C /* Hangman05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hangman05.png; sourceTree = "<group>"; };
+		62E84E941CC0202D0095D85C /* Hangman06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hangman06.png; sourceTree = "<group>"; };
+		62E84E951CC0202D0095D85C /* Hangman07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hangman07.png; sourceTree = "<group>"; };
+		62E84E961CC0202D0095D85C /* Hangman08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hangman08.png; sourceTree = "<group>"; };
+		62E84E971CC0202D0095D85C /* Hangman09.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hangman09.png; sourceTree = "<group>"; };
+		62E84E981CC0202D0095D85C /* Hangman10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hangman10.png; sourceTree = "<group>"; };
+		62E84EA31CC020470095D85C /* WordSetApple.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = WordSetApple.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +84,8 @@
 				62E84E7B1CC017840095D85C /* AppDelegate.m */,
 				62E84E7D1CC017840095D85C /* ViewController.h */,
 				62E84E7E1CC017840095D85C /* ViewController.m */,
+				62E84EA31CC020470095D85C /* WordSetApple.csv */,
+				62E84E8E1CC0202D0095D85C /* Images */,
 				62E84E801CC017840095D85C /* Main.storyboard */,
 				62E84E831CC017840095D85C /* Assets.xcassets */,
 				62E84E851CC017840095D85C /* LaunchScreen.storyboard */,
@@ -77,6 +101,23 @@
 				62E84E781CC017840095D85C /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		62E84E8E1CC0202D0095D85C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				62E84E8F1CC0202D0095D85C /* Hangman01.png */,
+				62E84E901CC0202D0095D85C /* Hangman02.png */,
+				62E84E911CC0202D0095D85C /* Hangman03.png */,
+				62E84E921CC0202D0095D85C /* Hangman04.png */,
+				62E84E931CC0202D0095D85C /* Hangman05.png */,
+				62E84E941CC0202D0095D85C /* Hangman06.png */,
+				62E84E951CC0202D0095D85C /* Hangman07.png */,
+				62E84E961CC0202D0095D85C /* Hangman08.png */,
+				62E84E971CC0202D0095D85C /* Hangman09.png */,
+				62E84E981CC0202D0095D85C /* Hangman10.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +178,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				62E84E871CC017840095D85C /* LaunchScreen.storyboard in Resources */,
+				62E84EA01CC0202D0095D85C /* Hangman08.png in Resources */,
 				62E84E841CC017840095D85C /* Assets.xcassets in Resources */,
 				62E84E821CC017840095D85C /* Main.storyboard in Resources */,
+				62E84E991CC0202D0095D85C /* Hangman01.png in Resources */,
+				62E84E9A1CC0202D0095D85C /* Hangman02.png in Resources */,
+				62E84E9E1CC0202D0095D85C /* Hangman06.png in Resources */,
+				62E84E9C1CC0202D0095D85C /* Hangman04.png in Resources */,
+				62E84E9B1CC0202D0095D85C /* Hangman03.png in Resources */,
+				62E84E9D1CC0202D0095D85C /* Hangman05.png in Resources */,
+				62E84EA41CC020470095D85C /* WordSetApple.csv in Resources */,
+				62E84E9F1CC0202D0095D85C /* Hangman07.png in Resources */,
+				62E84EA11CC0202D0095D85C /* Hangman09.png in Resources */,
+				62E84EA21CC0202D0095D85C /* Hangman10.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
