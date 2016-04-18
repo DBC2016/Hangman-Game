@@ -18,6 +18,8 @@
 @property (nonatomic, strong)            NSString       *currentWord;
 @property (nonatomic, strong)            NSString       *correctLetter;
 @property (nonatomic, strong)            NSString       *wrongLetter;
+@property (nonatomic, strong)            NSArray        *hangmanImageArray;
+@property (nonatomic, weak) IBOutlet UIImageView        *hangmanImageView;
 
 @end
 
@@ -26,6 +28,7 @@
 #pragma mark - Global Variables
 
 int failedAttemptCount = 0;
+int currentImage = 0;
 
 #pragma mark - Core Methods
 
@@ -65,7 +68,15 @@ int failedAttemptCount = 0;
         } else {
             NSLog(@"Didn't find an %@ at %i", buttonLetter,i);
         }
-    }
+        
+        
+            if (currentImage < (_hangmanImageArray.count - 1)) {
+                currentImage += 1;
+            } else {
+                currentImage = 0;
+            }
+        currentImage = arc4random_uniform((uint32_t)_hangmanImageArray.count);
+        [_hangmanImageView setImage:[UIImage imageNamed:_hangmanImageArray[currentImage]]];
 //Number of Tries
     if (!isFound) {
         failedAttemptCount++;
@@ -77,6 +88,8 @@ int failedAttemptCount = 0;
         NSLog(@"Game Over");
     }
 }
+
+
 
 //if (_wordLabel.text == _currentWord) {
 //    gameover = true;
@@ -92,15 +105,8 @@ int failedAttemptCount = 0;
 //
 #pragma mark - Life Cycle Methods
 
-- (void)viewDidLoad {
-    
-    [super viewDidLoad];
-    NSString *wordListString = [self readBundleFileToString:@"WordSetApple" ofType:@"csv"];
-    _wordListArray = [self convertCSVStringToArray:wordListString];
+//
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-}
+    @end
 
-@end
